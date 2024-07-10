@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <header >
+        <nav class="navbar">
+            <a href="index.html" target="_blank"><h1>Metric Convertor</h1></a>
+            <ul> 
+                <div class="icon"><li id="imgli"><img src="sidebar.jpg" alt=""></li></div>
+                <li><a href="length.html" target="_blank">Length</a></li>
+                <li><a href="#T">Temprature</a></li>
+                <li><a href="weights.html" target="_blank">Weight</a></li>
+                <li><a href="others.html" target="_blank">Others</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <button class="theme"></button>
+    <section>
+        <h2 id="T">Temprature Conversions</h2>
+        <div class="container">
+            <div class="child">
+                <input type="number" id="Celsius_1" placeholder="Celsius">
+                <input type="number"  id="Kelvin_1" placeholder="Kelvin">
+                <h3>Celsius to Kelvin</h3>
+            </div>
+            <div class="child">
+                <input type="number"  id="Kelvin_2" placeholder="Kelvin">
+                <input type="number"  id="Fahrenheit_2" placeholder="Fahrenheit">
+                <h3>Kelvin to Fahrenheit</h3>
+            </div>
+            <div class="child">
+                <input type="number"  id="Fahrenheit" placeholder="Fahrenheit">
+                <input type="number"  id="Celsius" placeholder="Celsius">
+                <h3>Fahrenheit to Celsius</h3>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
